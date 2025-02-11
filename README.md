@@ -33,6 +33,10 @@ Com esta ferramenta, é possível organizar **reuniões, treinos, estudos ou qua
 **Linguagem**: JavaScript  
 **Framework**: Nenhum (HTML, CSS e JS puro)  
 
+## Vídeo
+
+[Video](https://youtu.be/h9QKlfOIngs)
+
 ## Instalação  
 
 Para utilizar o projeto, basta clonar este repositório e abrir o arquivo **index.html** em um navegador.  
