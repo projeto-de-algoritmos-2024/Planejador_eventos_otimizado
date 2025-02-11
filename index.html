@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejador de Eventos Otimizado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Planejador de Eventos</h1>
+        <div class="form">
+            <input type="text" id="event-name" placeholder="Nome do evento">
+
+            <label for="event-start">Horário de Início</label>
+            <input type="time" id="event-start">
+
+            <label for="event-end">Horário de Término</label>
+            <input type="time" id="event-end">
+
+            <input type="number" id="event-weight" placeholder="Importância">
+            <button onclick="addEvent()">Adicionar Evento</button>
+        </div>
+        
+        <h2>Eventos Adicionados</h2>
+        <ul id="event-list"></ul>
+        
+        <button class="optimize-btn" onclick="optimizeSchedule()">Otimizar Agenda</button>
+        
+        <h2>Melhor Cronograma</h2>
+        <ul id="optimized-list"></ul>
+    </div>
+    <script src="logica.js"></script>
+</body>
+</html>
